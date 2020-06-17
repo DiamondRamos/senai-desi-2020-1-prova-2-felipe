@@ -1,0 +1,68 @@
+* {
+    margin:0px;
+}
+
+header {
+    background-color: aqua;
+    width: 100%;
+    align-self: center;
+}
+
+header #logo {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: chartreuse;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: yellow;
+    padding: 10px 10px;
+}
+
+section {
+    position: static;
+    height: 1300px;
+    border: 3px solid black;
+    line-height: 100px;
+}
+
+footer {
+    position: relative;
+    height: 80px;
+    border: 3px solid #400080;
+    text-align: center;
+}
+
+footer #contato {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    width: 200px;
+    height: 30px;
+    border: 3px solid blue;
+    background-color: teal;
+}
+section{
+
+    
+    background-color: tomato;
+}
+footer#baixo{
+    background-color: thistle;
+    
+}
+table{
+    width:100% cellspacing="10" cellpadding="10" border="3"
+
+}
+div #slide {
+
+ align-self: center;   
+}
