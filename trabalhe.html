@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+	<style>
+		body {
+			background-color: black;
+		}
+
+		.container {
+			background-color: white;
+			min-height: 1000px;
+		}
+
+		.row div {
+			background-color: gray;
+			border: 1px solid black;
+			padding: 20px;
+			color: white;
+		}
+
+		.row .row {
+			border: none;
+			padding: 0px;
+		}
+	</style>
+	<title>Trabalhe Conosco</title>
+	<script src="js/plugins/jquery-3.5.1.min.js"></script>
+	<script src="js/plugins/bootstrap.min.js"></script>
+	<script src="js/plugins/jquery.priceformat.min.js"></script>
+	<script src="js/plugins/jquery.mask.min.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#cpf").mask("000.000.000-00")
+		}
+		)
+	</script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12 col-md-9">
+				<div class="row">
+					<a href="bora.html">
+						<img src="img/medica.png" width="200" height="200">
+					</a>
+
+					<div class="col">
+						Hospital Cesi
+					</div>
+					<div class="col">
+						Fundação Senai
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-3">
+				<img src="img/senai.png" alt="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<a href="corpo medico.html">corpo medico</a>
+			</div>
+			<div class="col">
+				<a href="convenios.html">Convênios</a>
+			</div>
+			<div class="col">
+				<a href="horarios.html">Horários e visitas</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<a href="trabalhe.html">Trabalhe Conosco</a>
+			</div>
+			<div class="col-3">
+				contato
+			</div>
+			<div class="col-3">
+				Opções de plano
+
+			</div>
+			<form>
+				<div class="form-group">
+					<label for="nome">Nome</label>
+					<input type="nome" class="form-control" id="nomeinput" aria-describedby="nome"
+						placeholder="Digite seu nome">
+				</div>
+				<div class="form-group">
+					<label for="cpf">cpf</label>
+					<input type="text" class="form-control" id="cpf" placeholder="cpf">
+				</div>
+
+		</div>
+		<button type="submit" class="btn btn-primary">Enviar</button>
+
+		</form>
+
+	</div>
+	</div>
+
+	</div>
+	</div>
+
+</body>
+
+
+<script>
+	var images = document.getElementById("logo");
+
+	image.onclick = function (event) {
+		window.location.href = "bora.html";
+	};
+
+</script>
+
+<script src="js/plugins/jquery-3.5.1.min.js"></script>
+<script src="js/plugins/bootstrap.min.js"></script>
+<script src="js/plugins/jquery.priceformat.min.js"></script>
+<script src="js/plugins/jquery.mask.min.js"></script>
+<script src="js/script.js"></script>
+
+</html>
